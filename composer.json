@@ -1,0 +1,24 @@
+{
+    "name": "kofel/uri",
+    "description": "An URI RFC 3986 compliant parse library",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Kaflik",
+            "email": "jakub@kaflik.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kofel\\Uri\\": "src/Kofel/Uri"
+        }
+    },
+    "require": {
+        "php" : ">=7.0",
+        "ext-mbstring" : "*"
+    }
+}
